@@ -9,16 +9,13 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
-    <div class="notes">
-        <div class="tools">
-            <button class="edit"><i class="fas fa-edit"></i></button>
-            <button class="delete"><i class="fa fas fa-trash-alt"></i></button>
-        </div>
-        <div class="main hidden"></div>
-        <textarea></textarea>
-    </div>
+
+    <button class="add" id="add"><i class="fas fa-plus"></i>
+    Add note</button>
+
+    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.2.2/marked.min.js"></script>
-    <script src="index.js"></script>
+    <script src="index.js"></script> <!-- Ele usa defer aqui e coloca na head pra ser mais exata -->
 </body>
 </html>
